@@ -1,0 +1,3 @@
+export const REGISTER = {
+    REQUEST: "REGISTER_REQUEST"
+}
