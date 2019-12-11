@@ -1,4 +1,15 @@
 const nextOffline = require('next-offline')
 
 
-module.exports = nextOffline()
+module.exports = withOffline({
+  workboxOpts: {
+    skipWaiting: true,
+    clientsClaim: true,
+    runtimeCaching: [
+      {
+        urlPattern: /.png$/,
+        handler: 'CacheFirst'
+      }
+    ]
+  }
+})
