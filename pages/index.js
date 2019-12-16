@@ -1,13 +1,19 @@
 import {useEffect} from 'react'
 import {useDispatch} from 'react-redux'
 import {register} from '../actions/auth/register'
+import Link from 'next/link'
+import Layout from '../components/layout'
 
 const Home = () => {
   const Dispatch = useDispatch()
   useEffect(() => {
     Dispatch(register())
   }, [])
-  return <h1>Virtual Spirit's Boilerplate</h1>
+  return (
+    <Layout header="Login" nav={true}>
+      asd
+    </Layout>
+  )
 }
 
 export default Home

@@ -1,0 +1,48 @@
+@font-face {
+    font-family: ProximaNova;
+    src: url(/fonts/ProximaNova-Regular.otf);
+}
+@font-face {
+    font-family: ProximaNovaSemiBold;
+    src: url(/fonts/ProximaNova-Semibold.otf);
+}
+@font-face {
+    font-family: ProximaNovaBold;
+    src: url(/fonts/ProximaNova-Bold.otf);
+}
+.proximanova-10{
+    font-size: 10px !important;
+    font-family: ProximaNova;
+}
+.proximanova-12{
+    font-size: 12px !important;
+    font-family: ProximaNova;
+}
+.proximanova-14{
+    font-size: 14px !important;
+    font-family: ProximaNova;
+}
+.proximanova-16{
+    font-size: 16px !important;
+    font-family: ProximaNova;
+}
+.proximanova-30{
+    font-size: 30px !important;
+    font-family: ProximaNova;
+}
+.proximanova-14-semibold{
+    font-size: 14px !important;
+    font-family: ProximaNovaSemiBold;
+}
+.proximanova-18-semibold{
+    font-size: 18px !important;
+    font-family: ProximaNovaSemiBold;
+}
+.proximanova-20-bold{
+    font-size: 20px !important;
+    font-family: ProximaNovaBold;
+}
+.proximanova-24-bold{
+    font-size: 24px !important;
+    font-family: ProximaNovaBold;
+}

@@ -1,0 +1,41 @@
+.icon{
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background: #767676;
+    background-size: cover;
+    mask-size: cover !important;
+    -webkit-mask-size: cover !important;
+    -moz-mask-size: cover !important;
+    -ms-mask-size: cover !important;
+}
+.icon-chevron{
+    -webkit-mask: url("/icons/chevron.svg");
+    -moz-mask: url("/icons/chevron.svg");
+    -ms-mask: url("/icons/chevron.svg");
+}
+.icon-home{
+    -webkit-mask: url("/icons/home.svg");
+    -moz-mask: url("/icons/home.svg");
+    -ms-mask: url("/icons/home.svg");
+}
+.icon-course{
+    -webkit-mask: url("/icons/course.svg");
+    -moz-mask: url("/icons/course.svg");
+    -ms-mask: url("/icons/course.svg");
+}
+.icon-browse{
+    -webkit-mask: url("/icons/browse.svg");
+    -moz-mask: url("/icons/browse.svg");
+    -ms-mask: url("/icons/browse.svg");
+}
+.icon-profile{
+    -webkit-mask: url("/icons/profile.svg");
+    -moz-mask: url("/icons/profile.svg");
+    -ms-mask: url("/icons/profile.svg");
+}
+.icon-eye{
+    -webkit-mask: url("/icons/eye.svg");
+    -moz-mask: url("/icons/eye.svg");
+    -ms-mask: url("/icons/eye.svg");
+}
