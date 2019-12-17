@@ -10,7 +10,7 @@ const Home = () => {
     Dispatch(register())
   }, [])
   return (
-    <Layout header="Login" nav={true}>
+    <Layout title="Login" nav={true}>
       asd
     </Layout>
   )

@@ -4,7 +4,7 @@ import LoginComponent from '../components/login'
 
 const Login = () => {
   return (
-    <Layout header="Login">
+    <Layout title="Login">
       <Head>
           <link rel='stylesheet' href="/styles/auth.css" />
       </Head>

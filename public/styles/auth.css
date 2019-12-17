@@ -29,3 +29,34 @@
   font-family: ProximaNova;
   box-shadow: 1px 4px 7px 0px rgba(65,65,65,.06) !important;
 }
+.flow-box{
+  width: 45%;
+  background: #ffffff;
+  -webkit-box-shadow: 1px 4px 7px rgba(65,65,65,0.06);
+  -moz-box-shadow: 1px 4px 7px rgba(65,65,65,0.06);
+  box-shadow: 1px 4px 7px rgba(65,65,65,0.06);
+}
+.flow-img{
+  width: 100px;
+  height: 100px;
+}
+.pricing-tab-container{
+  width: 247px;
+  height: 40px;
+  background: #F0F0F0;
+  border-radius: 20px;
+  margin: 0 auto;
+  padding: 0 4px;
+}
+.pricing-tab-item{
+  width: 50%;
+  height: calc(100% - 8px);
+  border: none;
+  border-radius: 20px;
+  color: #777777;
+  background: none;
+}
+.pricing-tab-item.active{
+  color: #ffffff;
+  background: #5828C5;
+}

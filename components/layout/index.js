@@ -5,10 +5,10 @@ import Navigation from './navigation'
 
 
 
-const Layout = ({children, header, nav}) => {
+const Layout = ({children, title, nav}) => {
   return (
     <>
-      <Header title={header}/>
+      <Header title={title}/>
         {children}
       {nav && <Navigation/>}
     </>

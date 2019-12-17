@@ -5,7 +5,7 @@ import ReactCodeInput from 'react-verification-code-input'
 
 const ForgotPasswordOTPComponent = () =>{
   return (
-      <div className="main-container">
+      <div className="full-container">
         <div className="d-flex flex-column align-items-center justify-content-center h-75">
           <img src={book} width="136px" height="136px"/>
           <p className="proximanova-24-bold text-center text-color-3">Change<br/>Password Success</p>

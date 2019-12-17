@@ -1,6 +1,6 @@
 const index = () => {
     return (
-      <div className="main-container bg-info">
+      <div className="main-container">
         asd
       </div>
     )
