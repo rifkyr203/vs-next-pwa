@@ -14,6 +14,11 @@
     -moz-mask: url("/icons/chevron.svg");
     -ms-mask: url("/icons/chevron.svg");
 }
+.icon-bell{
+    -webkit-mask: url("/icons/bell.svg");
+    -moz-mask: url("/icons/bell.svg");
+    -ms-mask: url("/icons/bell.svg");
+}
 .icon-home{
     -webkit-mask: url("/icons/home.svg");
     -moz-mask: url("/icons/home.svg");

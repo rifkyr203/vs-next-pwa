@@ -1,19 +1,11 @@
 import {useEffect} from 'react'
-import {useDispatch} from 'react-redux'
-import {register} from '../actions/auth/register'
-import Link from 'next/link'
-import Layout from '../components/layout'
+import {Router} from 'route'
 
 const Home = () => {
-  const Dispatch = useDispatch()
   useEffect(() => {
-    Dispatch(register())
+    Router.pushRoute('children-home')
   }, [])
-  return (
-    <Layout title="Login" nav={true}>
-      asd
-    </Layout>
-  )
+  return ''
 }
 
 export default Home
