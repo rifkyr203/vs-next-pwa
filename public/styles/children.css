@@ -11,3 +11,8 @@
     border-radius: 50%;
     background: rgba(255,255,255, .3);
 }
+.rec-box{
+    width: 100%;
+    height: 340px;
+    background: #824CD5;
+}
